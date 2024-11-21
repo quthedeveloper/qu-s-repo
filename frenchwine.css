@@ -1,0 +1,41 @@
+.toma-img{
+  width: 700px;
+  height: 565px;
+  border-radius: 25px;
+}
+.heading{
+  font-family: Poppins;
+  margin-bottom: 60px;
+  margin-left: 30px;
+  color: rgb(168, 11, 11);
+}
+.toma-head{
+ font-family: Roboto;
+ margin-top: 0px;
+ font-size: 30px; 
+ font-weight: 800;
+ margin-bottom: 7px;
+}
+p{
+  font-family: Nunito;
+  margin: 0;
+  margin-right: 160px;
+}
+section{
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.adjust{
+  display: flex;
+  gap: 20px;
+}
+.para-div{
+  background-color: rgb(233, 233, 233);
+  padding-top:  20px;
+  padding-left: 20px;
+  border-radius: 25px;
+}
+.second-sec h2{
+  font-family: italianno;
+  font-size: 30px;
+}

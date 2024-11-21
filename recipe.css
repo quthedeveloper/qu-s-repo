@@ -1,0 +1,282 @@
+  *{
+    a{
+      text-decoration: none;
+    }
+  }
+
+.main-header{
+display: flex;
+justify-content: space-between;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+border-radius: 15px;
+align-items: center;
+padding-top: 20px;
+padding-bottom: 20px;
+position: fixed; 
+top: 0; 
+left: 0;
+right: 0; 
+z-index: 1000; 
+background-color: #fff
+  }
+  .main-header a,
+  .main-header input,
+  .main-header div {
+    color:  rgb(204, 44, 44); 
+  }
+
+
+  body{
+    padding-top: 100px ;
+  }
+  .recipe-a{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: Montserrat;
+    color: rgb(204, 44, 44);
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .link-div{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+  }
+
+  .link-div a{
+    text-decoration: none;
+    color: gray;
+    font-family: Montserrat;
+    position: relative;
+    font-size: 15px;
+  }
+
+
+  .search-bar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 600px;
+    text-indent : 10px;
+    outline: none;
+    margin-right: 40px;
+    border-radius: 6px;
+    border-color: lightslategrey;
+    border-width: 1px;
+  }
+
+  nav{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    box-shadow: 0px 2px 2px -2px gray;
+    padding-bottom: 25px;
+  }
+
+.nav-div a{
+margin-left: 30px;
+text-decoration: none;
+color: #000;
+font-family: Montserrat;
+font-weight: 800;
+}
+
+.get-mag div{
+  text-decoration: none;
+  color: rgb(204, 44, 44);
+  font-family: Poppins;
+  font-weight: 700;
+}
+.img-grid{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+gap: 320px;
+}
+.main-sec{
+  margin-top: 90px;
+}
+
+.apple-img{
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: lightslategray;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.heading{
+  color: #000;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Poppins;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.food-news{
+background-color: rgb(230, 243, 230);
+width: 100%;
+max-width: 400px;
+height: 500px;
+padding: 20px;
+border-radius: 10px;
+}
+
+.food-news h2{
+  font-family: Montserrat;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+
+.food-news-links{
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.card-img,.card-img-2,.card-img-3,.card-img-3{
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
+.card__title-text{
+  text-decoration: none; 
+  font-family: Poppins;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card__title-text:hover{
+  text-decoration: underline red;
+}
+
+.retro-dish,.meet-apple,.best-appetizer,.Amazon-prime{
+  display: flex;
+  gap: 15px;
+}
+
+.main-div-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.second-sec{
+  margin-top: 20px;
+}
+.Trend{
+  font-size: 30px;
+  font-family: Poppins;
+}
+.trends-recipes,.apple-recipes,.october-recipe,.hatch-chiles{
+display: flex;
+gap: 20px;
+background-color: #eeeeee;
+border-radius: 15px;
+}
+.trends-word{
+  color: #5c5a5a;
+  font-family: Montserrat;  
+  font-weight: 700;
+  margin-top: 10px;
+}
+.trends-div{
+  margin-bottom: 7px;
+  margin-top: 10px;
+}
+.inner-card h2{
+color: #000;
+font-family: Roboto;
+font-weight: 800;
+font-size: 30px;
+}
+
+.inner-card .in-the-kitchen {
+font-size: 19px;
+font-family: Poppins;
+font-weight: 600;
+color: #5c5a5a;
+margin-bottom: 0;
+}
+
+.inner-card .read-more{
+  color: #000;
+  font-family: Poppins;
+}
+
+.inner-card{
+  max-width: 400px;
+  background-color: #fff;
+  position: absolute;
+  top: 1600px;
+  left: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.news-letters {
+  display: inline-block; 
+  padding: 10px 30px; 
+  border: 2px solid rgb(255, 0, 0); 
+  border-radius: 5px;
+  text-decoration: none; 
+  color: black; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.news-letters:hover {
+  background-color: rgb(255, 0, 0); 
+  color: white; 
+  cursor: pointer; 
+}
+.span-newsletter{
+  font-family: Nunito;
+  font-weight: 900;
+  font-size: 15px;
+}
+.recipe-b{
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.follow-us{
+  margin-left: 60px;
+}
+
+.cuisine{
+  list-style-type: none; 
+  padding-bottom: 10px; 
+  margin-left: 60px;
+}
+.link__wrapper{
+  color: #000;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.footer{
+  background-color: #dfdede;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  border-top: 1px;
+  border-radius: 25px;
+}
+.nav-div {
+      background-color: #333;
+      
+    }
+
+    .nav-div a {
+      float: left;
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    .nav-div a:hover {
+      background-color: #fff;
+      color: black;
+    }
